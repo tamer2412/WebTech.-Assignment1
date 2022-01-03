@@ -1,105 +1,105 @@
 table, th, td {
-  border: 1px solid black;
-}
-.table{
-  font-size: 30px;
-  position: relative; bottom: 300px; left: 520px;
-  max-width: 100px;
-  padding: 0;
-  margin: 0;
-}
-.form {
-  position: relative; bottom: 860px; left: 1200px;
-  width: 400px;
-}
-.ul{
-  width: 500px;
-  font-size: 25px;
-}
-li{
-  margin: 9px;
-  padding: 9px;
-}
-
-input[type=text] {
-  width: 350px;
-  padding: 10px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.h1{
-font-family: 'Shizuru', cursive;
-  font-size: 30px;
-  width: 1500px;
-  margin: 0;
-  padding-bottom: 100px;
-  border: 4px double rgba(255, 255, 255, 0.25);
-  border-width: 4px 0;
-}
-span {
-
-  display: block;
-  padding: .25em 0 .325em;
- display: block;
- text-shadow: 0 0 80px rgba(255, 255, 255, 0.9);
- animation: bounce-top 2s infinite both;
-}
-@keyframes bounce-top {
-  0% {
-    transform: translateY(-45px);
-    animation-timing-function: ease-in;
-    opacity: 1;
+    border: 1px solid black;
   }
-  24% {
-    opacity: 1;
+  .table{
+    font-size: 30px;
+    position: relative; bottom: 300px; left: 520px;
+    max-width: 100px;
+    padding: 0;
+    margin: 0;
   }
-  40% {
-    transform: translateY(-24px);
-    animation-timing-function: ease-in;
+  .form {
+    position: relative; bottom: 860px; left: 1200px;
+    width: 400px;
   }
-  65% {
-    transform: translateY(-12px);
-    animation-timing-function: ease-in;
+  .ul{
+    width: 500px;
+    font-size: 25px;
   }
-  82% {
-    transform: translateY(-6px);
-    animation-timing-function: ease-in;
+  li{
+    margin: 9px;
+    padding: 9px;
   }
-  93% {
-    transform: translateY(-4px);
-    animation-timing-function: ease-in;
+  
+  input[type=text] {
+    width: 350px;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
   }
-  25%,
-  55%,
-  75%,
-  87% {
-    transform: translateY(0px);
-    animation-timing-function: ease-out;
+  .h1{
+  font-family: 'Shizuru', cursive;
+    font-size: 30px;
+    width: 1500px;
+    margin: 0;
+    padding-bottom: 100px;
+    border: 4px double rgba(255, 255, 255, 0.25);
+    border-width: 4px 0;
   }
-  100% {
-    transform: translateY(0px);
-    animation-timing-function: ease-out;
-    opacity: 1;
+  span {
+  
+    display: block;
+    padding: .25em 0 .325em;
+   display: block;
+   text-shadow: 0 0 80px rgba(255, 255, 255, 0.9);
+   animation: bounce-top 2s infinite both;
   }
-}
-body{
-  background: url(icon/phone.jpg);
-  max-width: 320px;
-  max-height: 1300px;
-
-}
-.linkpic{
-  margin-left: 1250px;
-  position: relative; bottom: 1300px;
-}
-.info{
- position: relative; right: 1180px; top: 380px;;
- width: 1000px;
-
-}
-h2{
-  font-size: 50px;
-}
-p{
-  font-size: 25px;
-}
+  @keyframes bounce-top {
+    0% {
+      transform: translateY(-45px);
+      animation-timing-function: ease-in;
+      opacity: 1;
+    }
+    24% {
+      opacity: 1;
+    }
+    40% {
+      transform: translateY(-24px);
+      animation-timing-function: ease-in;
+    }
+    65% {
+      transform: translateY(-12px);
+      animation-timing-function: ease-in;
+    }
+    82% {
+      transform: translateY(-6px);
+      animation-timing-function: ease-in;
+    }
+    93% {
+      transform: translateY(-4px);
+      animation-timing-function: ease-in;
+    }
+    25%,
+    55%,
+    75%,
+    87% {
+      transform: translateY(0px);
+      animation-timing-function: ease-out;
+    }
+    100% {
+      transform: translateY(0px);
+      animation-timing-function: ease-out;
+      opacity: 1;
+    }
+  }
+  body{
+    background: url(icon/phone.jpg);
+    max-width: 320px;
+    max-height: 1300px;
+  
+  }
+  .linkpic{
+    margin-left: 1250px;
+    position: relative; bottom: 1300px;
+  }
+  .info{
+   position: relative; right: 1180px; top: 380px;;
+   width: 1000px;
+  
+  }
+  h2{
+    font-size: 50px;
+  }
+  p{
+    font-size: 25px;
+  }
